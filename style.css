@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+    padding: 0%;
+}
+
+header {
+    width: 90%;
+    height: 40%;
+    margin: 0%;
+    padding: 5%;
+    background-image: url(/images/ракушка.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.paragraph-inline-color-brown {
+    color: white;
+    background-color: #926239;
+    padding: 1%;
+    margin: 0%;
+}
+
+.paragraph-inline-color-white {
+    color: #926239;
+    background-color: white;
+    padding: 1%;
+    margin: 0%;
+}
+
+.paragraph-inline-block p {
+    display: inline-block;
+    width: 31%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-left: 0%;
+}
