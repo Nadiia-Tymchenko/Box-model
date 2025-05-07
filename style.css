@@ -1,40 +1,56 @@
 body {
-    text-align: center;
-    margin: 0%;
-    height: 100%;
-    padding: 0%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 header {
-    width: 90%;
-    height: 40%;
-    margin: 0%;
-    padding: 5%;
-    background-image: url(/images/ракушка.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(/images/ракушка.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #926239;
 }
 
-.paragraph-inline-color-brown {
-    color: white;
-    background-color: #926239;
-    padding: 1%;
-    margin: 0%;
+h1 {
+    margin-top: 0;
+    padding-top: 30vh;
+    text-transform: capitalize;
 }
 
-.paragraph-inline-color-white {
-    color: #926239;
-    background-color: white;
-    padding: 1%;
-    margin: 0%;
+.color-brown {
+  color: white;
+  background-color: #926239;
+  padding: 1%;
+  margin: 0;
+}
+
+.color-white {
+  color: #926239;
+  background-color: white;
+  padding: 1%;
+  margin: 0;
 }
 
 .paragraph-inline-block p {
-    display: inline-block;
-    width: 31%;
-    margin: 0%;
-    margin-left: 0%;
-    margin-left: 0%;
+  display: inline-block;
+  width: 31%;
+}
+
+.button {
+  color: #926239;
+  background-color: transparent;
+  border: #926239 1px solid;
+  padding: 1em 1.2em;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #926239;
+  color: white;
+  cursor: pointer;
 }
